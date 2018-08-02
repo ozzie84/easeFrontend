@@ -34,10 +34,10 @@
             </div>
           </div>
           <ul class="welcome_menu">
-            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#">About</a></li>
-            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#">Works</a></li>
-            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#">Use</a></li>
-            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#">Contacts</a></li>
+            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#about">About</a></li>
+            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#works">Works</a></li>
+            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#use">Use</a></li>
+            <li class="welcome_menu__item"><a class="welcome_menu__link" href="#">Contact</a></li>
           </ul>
           <ul class="welcome_social">
             <li class="welcome_social__item"><a class="welcome_social__link" href="#">
@@ -54,7 +54,7 @@
                 </svg></a></li>
           </ul>
         </section>
-        <section class="about_wrap">
+        <section class="about_wrap" id="about">
           <div class="about">
             <div class="about_this">
               <h2 class="about_head">HEY!</h2>
@@ -67,10 +67,14 @@
             </div>
           </div>
         </section>
-        <section class="works_wrap">
+        <section class="works_wrap" id="works">
           <div class="container">
             <div class="works">
-              <h2 class="works_head">CHECK <br><span>THIS OUT!</span></h2>
+              <h2 class="works_head">CHECK <br><span>THIS OUT!</span>
+                <svg class="icon icon-code ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#code"></use>
+                </svg>
+              </h2>
               <ul class="works_this_wrap">
                 <li class="works_this book">
                   <div class="works_info">
@@ -172,7 +176,7 @@
             </div>
           </div>
         </section>
-        <section class="use_section">
+        <section class="use_section" id="use">
           <div class="use_wrap_bg" id="particles-js-use"></div>
           <div class="use_wrap">
             <div class="container">
@@ -187,7 +191,7 @@
                     <use xlink:href="static/img/svg/symbol/sprite.svg#html"></use>
                   </svg><span class="use__link">HTML5</span>
                 </li>
-                <li class="use__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis, minus natus nobis nostrum quidem sint voluptatem? Consequuntur deleniti iste, itaque laboriosam minus nam obcaecati quia rem repudiandae sint ut?
+                <li class="use__text">HTML is a markup language used to describing the simplest form of webpages. It is the main markup language for webpages. HTML is an abbreviation and stand for HyperText Markup Language.
                   <svg class="icon icon-close ">
                     <use xlink:href="static/img/svg/symbol/sprite.svg#close"></use>
                   </svg>
@@ -197,7 +201,7 @@
                     <use xlink:href="static/img/svg/symbol/sprite.svg#css"></use>
                   </svg><span class="use__link">CSS3</span>
                 </li>
-                <li class="use__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis, minus natus nobis nostrum quidem sint voluptatem? Consequuntur deleniti iste, itaque laboriosam minus nam obcaecati quia rem repudiandae sint ut?
+                <li class="use__text">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
                   <svg class="icon icon-close ">
                     <use xlink:href="static/img/svg/symbol/sprite.svg#close"></use>
                   </svg>
@@ -207,7 +211,7 @@
                     <use xlink:href="static/img/svg/symbol/sprite.svg#js"></use>
                   </svg><span class="use__link">JavaScript</span>
                 </li>
-                <li class="use__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis, minus natus nobis nostrum quidem sint voluptatem? Consequuntur deleniti iste, itaque laboriosam minus nam obcaecati quia rem repudiandae sint ut?
+                <li class="use__text">JavaScript is the language of the web. You can use it to add dynamic behavior, store information, and handle requests and responses on a website. The concepts covered in these courses lay the foundation for adding this behavior.
                   <svg class="icon icon-close ">
                     <use xlink:href="static/img/svg/symbol/sprite.svg#close"></use>
                   </svg>
@@ -217,7 +221,7 @@
                     <use xlink:href="static/img/svg/symbol/sprite.svg#jquery"></use>
                   </svg><span class="use__link">jQuery</span>
                 </li>
-                <li class="use__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis, minus natus nobis nostrum quidem sint voluptatem? Consequuntur deleniti iste, itaque laboriosam minus nam obcaecati quia rem repudiandae sint ut?
+                <li class="use__text">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
                   <svg class="icon icon-close ">
                     <use xlink:href="static/img/svg/symbol/sprite.svg#close"></use>
                   </svg>
@@ -227,7 +231,7 @@
                     <use xlink:href="static/img/svg/symbol/sprite.svg#gulp"></use>
                   </svg><span class="use__link">Gulp</span>
                 </li>
-                <li class="use__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis, minus natus nobis nostrum quidem sint voluptatem? Consequuntur deleniti iste, itaque laboriosam minus nam obcaecati quia rem repudiandae sint ut?
+                <li class="use__text">Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.
                   <svg class="icon icon-close ">
                     <use xlink:href="static/img/svg/symbol/sprite.svg#close"></use>
                   </svg>
@@ -237,7 +241,7 @@
                     <use xlink:href="static/img/svg/symbol/sprite.svg#pug"></use>
                   </svg><span class="use__link">PUG</span>
                 </li>
-                <li class="use__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis, minus natus nobis nostrum quidem sint voluptatem? Consequuntur deleniti iste, itaque laboriosam minus nam obcaecati quia rem repudiandae sint ut?
+                <li class="use__text">Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.
                   <svg class="icon icon-close ">
                     <use xlink:href="static/img/svg/symbol/sprite.svg#close"></use>
                   </svg>
@@ -247,7 +251,7 @@
                     <use xlink:href="static/img/svg/symbol/sprite.svg#stylus"></use>
                   </svg><span class="use__link">Stylus</span>
                 </li>
-                <li class="use__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis, minus natus nobis nostrum quidem sint voluptatem? Consequuntur deleniti iste, itaque laboriosam minus nam obcaecati quia rem repudiandae sint ut?
+                <li class="use__text">Stylus is an innovative stylesheet language that compiles down to CSS. Inspired by SASS, Stylus is built with node.js and capable of running in the browser as this interactive tutorial illustrates.
                   <svg class="icon icon-close ">
                     <use xlink:href="static/img/svg/symbol/sprite.svg#close"></use>
                   </svg>
@@ -256,8 +260,47 @@
             </div>
           </div>
         </section>
+        <div class="contact_wrap">
+          <div class="container">
+            <div class="contact">
+              <h2 class="contact_head">get in<span>touch!</span>
+                <svg class="icon icon-password ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#password"></use>
+                </svg>
+              </h2>
+              <ul class="contacts">
+                <li class="contacts__item">
+                  <div class="contacts_info">
+                    <h5>Our Location</h5>
+                    <p>Zarechanskaya Street</p>
+                    <p>Khmelnitskiy, Ukraine, 28000</p><a href="tel:+380682043870">+38 (068) 204-38-70</a>
+                    <button class="hello">Say Hello!</button>
+                  </div>
+                  <ul class="welcome_social">
+                    <li class="welcome_social__item"><a class="welcome_social__link" href="#">
+                        <svg class="icon icon-facebook ">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#facebook"></use>
+                        </svg></a></li>
+                    <li class="welcome_social__item"><a class="welcome_social__link" href="#">
+                        <svg class="icon icon-linkedin ">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#linkedin"></use>
+                        </svg></a></li>
+                    <li class="welcome_social__item"><a class="welcome_social__link" href="#">
+                        <svg class="icon icon-github ">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#github"></use>
+                        </svg></a></li>
+                  </ul>
+                </li>
+                <li class="contacts__item">
+                  <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2309062.072391385!2d27.87820525237219!3d50.625482300854934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4732064344bb178b%3A0xd9f30b3b24d9c964!2z0KXQvNC10LvRjNC90LjRhtC60LjQuSwg0KXQvNC10LvRjNC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMjkwMDA!5e0!3m2!1sru!2sua!4v1533125438683"></iframe>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <footer></footer>
     </div>
     <script src="static/js/libs.min.js"></script>
     <script src="static/js/main.js"></script>
